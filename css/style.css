@@ -1,0 +1,203 @@
+* {
+    font-family: 'Be Vietnam', sans-serif;
+}
+h1  {
+    font-family: 'Amatic SC', cursive;
+    font-size: 120px;
+    color: aliceblue;
+}
+.but1, .but2 {
+   width: 30rem;
+   font-size: 20px;
+   
+}
+h2{
+    font-size: 40px;
+}
+h2 {
+    color:aliceblue;
+}
+#challen {
+    font-size: 110px;
+}
+.container {
+    text-align: center;
+    padding: 70px;
+}
+
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  .button>button {
+    transition-duration: 0.4s;
+    height: 3rem;
+    background-color: #23a6d5;
+    border-radius: 10px ;
+    color: aliceblue;
+    font-size: 30px;
+  }
+  
+  .button>button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .btn {
+    transition-duration: 0.4s;
+    height: 3rem;
+    width: 35rem;
+    background-color: #23a6d5;
+    border-radius: 10px ;
+    display: none;
+    color: aliceblue;
+    font-size: 30px;
+  }
+  .btn2 {
+    transition-duration: 0.4s;
+    background-color: #23a6d5;
+    border-radius: 10px ;
+    display: none;
+    float: right;
+    margin-right: 15px;
+    color: aliceblue;
+    font-size: 30px;
+    height: 3rem;
+    width: 35rem;
+  }
+  .btn:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .formcss {
+      display: none;
+      text-align: center;
+      padding: 70px;
+  }
+  .final {
+      display: none;
+      text-align: center;
+      padding: 70px;
+  }
+  .final>h1 {
+      font-size: 160px;
+  }
+  .inputf {
+      border-radius: 10px;
+      height: 6rem;
+      width: 35rem;
+      font-size: 40px;
+  }
+  .rea {
+      border-radius: 10px;
+      height: 5rem;
+      width: 12rem;
+      background-color: aquamarine;
+      color: black;
+      font-size: 30px;
+  }
+  .rea:hover {
+      background-color: #4CAF50;
+      color: white;
+  }
+.fbtn {
+    transition-duration: 0.4s;
+    background-color: #23a6d5;
+    border-radius: 10px ;
+    color: aliceblue;
+    font-size: 30px;
+}
+.fbtn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.fbtnh1 {
+    transition-duration: 0.4s;
+    background-color: #23a6d5;
+    border-radius: 10px ;
+    color: aliceblue;
+    font-size: 30px;
+    float:left;
+}
+.fbtnh1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.fbtnh2 {
+    transition-duration: 0.4s;
+    background-color: #23a6d5;
+    border-radius: 10px ;
+    color: aliceblue;
+    font-size: 30px;
+    float: right;
+}
+.fbtnh2:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.final h2 {
+    font-size: 80px;
+}
+#h2h2 {
+    font-size: 27px
+}
+#heart {
+    font-size: 100px;
+}
+#h22 {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        padding: 10px;
+    }
+    .but1, .but2 {
+        width: 18rem;
+        
+    }
+    h1 {
+        font-size: 85px
+    }
+    .btn {
+        width: 18rem;
+    }
+    .btn2 {
+        width: 18rem;
+    }
+    .formcss {
+        padding: 15px;
+    }
+    #challen {
+        font-size: 60px;
+    }
+    .final h1 {
+        font-size: 60px;
+    }
+    .final h2 {
+        font-size: 30px;
+    }
+    #h2h2 {
+        font-size: 25px;
+    }
+    #h22 {
+        font-size: 32px;
+    }
+}
