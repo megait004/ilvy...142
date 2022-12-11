@@ -34,7 +34,7 @@ function troll() {
       x.style.display="none";
       y.style.display="block";
       document.getElementById("alert").innerHTML = "😍";
-      document.getElementById("alert2").innerHTML = "Chị mà thoát trang Web này hay Block iem là chị đồng ý nhá :3 ";
+      document.getElementById("alert2").innerHTML = "Chị mà thoát trang Web này hay Block iem là chị đồng ý nhá :3 😚";
       document.getElementById("audio2").play();
       return false;
 }
@@ -65,12 +65,12 @@ function inrel() {
      b.style.display="none";
      z.style.display="none";
      c.innerHTML = "";
-     c.innerHTML = "Chị rất giống với con dâu của bố mẹ iem lắm =))";
+     c.innerHTML = "Chị rất giống với con dâu của bố mẹ iem lắm =)) 🤗";
      y.style.display="none";
      x.style.display="inline";
      document.getElementById("audio3").play();
      document.getElementById("alert2").innerHTML = "";
-     document.getElementById("des").innerHTML = "Nếu chị không phiền thì làm người yêu em nhé 😳";
+     document.getElementById("des").innerHTML = "Nếu chị không phiền thì làm người yêu em nhé!! 😳";
      return false;
 
 }
@@ -84,7 +84,7 @@ function inrel2() {
 
 }
 function trollalt() {
-    document.getElementById("alert2").innerHTML="Sao chị không muốn? Chị sẽ rất bất ngờ đấy!";
-    alert("Sao chị không muốn? Chị sẽ rất bất ngờ đấy!");
+    document.getElementById("alert2").innerHTML="Sao chị không muốn? Chị sẽ rất bất ngờ đấy!😉😉";
+    alert("Sao chị không muốn? Chị sẽ rất bất ngờ đấy!😉😉");
     return false;
 }
